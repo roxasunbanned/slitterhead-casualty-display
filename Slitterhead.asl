@@ -7,6 +7,8 @@
 */
 
 state("YKS-Win64-Shipping") {   
+    int CurrentMissionCasualties: 0;
+    int TotalCasualties: 0;
 }
 
 startup {
@@ -35,7 +37,7 @@ update {
     vars.Helper.MapPointers();
     int MantisTrap_checked = current.MantisTrap != -1 ? current.MantisTrap : current.MantisTrap_alt;
     int JarOfPoison_checked = current.JarOfPoison != -1 ? current.JarOfPoison : current.JarOfPoison_alt;
-    vars.CurrentMissionCasualties = current.CurrentMission;
-    vars.TotalCasualties = current.LurkingParasite + current.SleeplessZone + current.MissingGirl + current.OpressiveForce + current.HiddenCave + MantisTrap_checked + JarOfPoison_checked + current.DriftingDevil + current.BlackPayback + current.GhostFamily + current.BindBreak;
+    current.CurrentMissionCasualties = current.CurrentMission > 0 ? current.CurrentMission : 0;
+    current.TotalCasualties = current.LurkingParasite + current.SleeplessZone + current.MissingGirl + current.OpressiveForce + current.HiddenCave + MantisTrap_checked + JarOfPoison_checked + current.DriftingDevil + current.BlackPayback + current.GhostFamily + current.BindBreak;
     return true;
 }
