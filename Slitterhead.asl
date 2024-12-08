@@ -2,7 +2,8 @@
 *	Slitterhead Casualty Display v0.1
 *	GitHub: https://github.com/roxasunbanned/slitterhead-casualty-display
 *	Notes:
-*		- Install ASLVarViewer [https://github.com/hawkerm/LiveSplit.ASLVarViewer] & LiveSplit [https://github.com/LiveSplit/LiveSplit]
+*       - Requires LiveSplit [https://github.com/LiveSplit/LiveSplit]
+*		- Requires ASLVarViewer [https://github.com/hawkerm/LiveSplit.ASLVarViewer] and asl-help [https://github.com/just-ero/asl-help] added to /Components
 */
 
 state("YKS-Win64-Shipping") {   
