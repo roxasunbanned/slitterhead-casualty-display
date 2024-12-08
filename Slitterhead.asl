@@ -3,7 +3,7 @@
 *	GitHub: https://github.com/roxasunbanned/slitterhead-casualty-display
 *	Notes:
 *       - Requires LiveSplit [https://github.com/LiveSplit/LiveSplit]
-*		- Requires ASLVarViewer [https://github.com/hawkerm/LiveSplit.ASLVarViewer] and asl-help [https://github.com/just-ero/asl-help] added to /Components
+*       - Requires ASLVarViewer [https://github.com/hawkerm/LiveSplit.ASLVarViewer] and asl-help [https://github.com/just-ero/asl-help] added to /Components
 */
 
 state("YKS-Win64-Shipping") {   
